@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS 상세 상속 예시</title>
+        <style>
+            .parent {
+                color: blue;
+                font-family: Arial, sans-serif; /*부모요소에 글꼴 스타일 적용*/
+            }
+
+            .child {
+                margin-left: 20px; /*자식 요소에 추가 여백을 적용(색상과 글꼴은 상속됨)*/
+            }
+
+            .overridden {
+                color: red; /*상속된 색상을 덮어쓰기*/
+            }
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            부모 요소
+            <p class="child">자식 요소(상속된 스타일 적용)</p>
+            <p class="child overridden">덮어쓴 스타일의 자식요소</p>
+        </div>
+    </body>
+</html>
