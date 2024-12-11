@@ -2,32 +2,65 @@
 <html>
     <head>
         <title>웹 페이지 만들어보기 연습문제</title>
+        <style>
+            body {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 0;
+                padding: 0;
+            }
+            nav ul {
+                list-style: none;
+            }
+            <!--nav 리스트 태그 없애기-->
+            nav ul li{
+                display: inline;
+                margin-right: 20px;
+            }
+            <!--리스트 가로로 펼치기, 폭 조정-->
+        </style>
     </head>
     <body>
-        <section>
-            <h2>메인 페이지 제목</h2>
+        <header>
+            <h1>메인 페이지 제목</h1>
             <p>로고나 아이콘</p>
-            <a href="홈" target="_blank">홈</a>
-            <a href="뉴스" target="_blank">뉴스</a>
-            <a href="연락처" target="_blank">연락처</a>
-            <a href="소개" target="_blank">소개</a>
+            <nav>
+                <ul>
+                    <li><a href="홈" target="_blank">홈</a></li>
+                    <li><a href="뉴스" target="_blank">뉴스</a></li>
+                    <li><a href="연락처" target="_blank">연락처</a></li>
+                    <li><a href="소개" target="_blank">소개</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <header>
+                <h2>기사 제목</h2>
+                <p>작성자: 홍길동</p>
+                <p>기사 내용...</p>
+                <figure>
+                    <img src="penguin.jpg" alt="귀여운 펭귄 사진", width="300">
+                    <figcaption>남극의 아름다운 펭귄</figcaption>
+                </figure>
+            </header>
+            <footer>
+                <p>저작권 2024 홍길동. 모든 권리 보유</p>
+            </footer>
         </section>
         <section>
-            <h2>기사 제목</h2>
-            <p>작성자: 홍길동</p>
-            <p>기사 내용...</p>
-            <figure>
-                <img src="penguin.jpg" alt="귀여운 펭귄 사진", width="300">
-            </figure>
-            <p>저작권 2024 홍길동. 모든 권리 보유</p>
+            <header>
+                <h2>또 다른 기사제목</h2>
+                <p>작성자: 김철수</p>
+                <p>기사 내용...</p>
+            </header>
+            <footer>
+                <p>저작권 2024 김철수. 모든 권리 보유</p>
+            </footer>
         </section>
-        <section>
-            <h2>또 다른 기사제목</h2>
-            <p>작성자: 김철수</p>
-            <p>기사 내용...</p>
-            <p>저작권 2024 김철수. 모든 권리 보유</p>
+        <footer>
             <p>연락처 정보: info@example.com</p>
             <p>저작권 2024 메인 웹사이트. 모든 권리 보유</p>
-        </section>
+        </footer>
     </body>
 </html>
