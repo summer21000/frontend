@@ -1,7 +1,7 @@
 spring:
   datasource:
-    driver-class-name: 0rg.h2.Driver
-    url: jdbc:h2:~demodb
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:~/demodb
     username: sa
     password: 1234
   h2:
