@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aea830b4-3507-4e80-a8a2-a19a1232347b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/News/NewsApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/News/NewsApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jpa/jpa/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jpa/jpa/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jpa/jpa/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jpa/jpa/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jpa/jpa/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jpa/jpa/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jpa/jpa/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jpa/jpa/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jpa/jpa/src/main/java/com/example/jpa/JpaApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jpa/jpa/src/main/java/com/example/jpa/domain/News.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jpa/jpa/src/main/java/com/example/jpa/domain/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jpa/jpa/src/main/java/com/example/jpa/domain/ProductOption.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jpa/jpa/src/main/java/com/example/jpa/domain/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jpa/jpa/src/main/java/com/example/jpa/repository/NewsRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jpa/jpa/src/main/java/com/example/jpa/repository/ProductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jpa/jpa/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jpa/jpa/src/test/java/com/example/jpa/JpaApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mvc/mvc/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mvc/mvc/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mvc/mvc/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mvc/mvc/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mvc/mvc/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mvc/mvc/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mvc/mvc/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mvc/mvc/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mvc/mvc/src/main/java/com/first/mvc/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mvc/mvc/src/main/java/com/first/mvc/MvcApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mvc/mvc/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mvc/mvc/src/main/resources/templates/helloUser.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mvc/mvc/src/test/java/com/first/mvc/MvcApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../myspring/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../myspring/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../myspring/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../myspring/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../myspring/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../myspring/myspring/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../myspring/myspring/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../myspring/myspring/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../myspring/myspring/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../myspring/myspring/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../myspring/myspring/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../myspring/myspring/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../myspring/myspring/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../myspring/myspring/src/main/java/com/example/myspring/MyspringApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../myspring/myspring/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../myspring/myspring/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../myspring/myspring/src/test/java/com/example/myspring/MyspringApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "summer21000"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/summer21000/frontend.git",
+    "accountId": "b30ee1ed-55f1-4ea2-8626-ef0cb5b20501"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2qHKkHs1Zukr1x1XSGYsoJphum2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/User/aivle/frontend/spring"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aea830b4-3507-4e80-a8a2-a19a1232347b" name="Changes" comment="" />
+      <created>1734314201513</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1734314201513</updated>
+    </task>
+    <servers />
+  </component>
+</project>
