@@ -68,4 +68,12 @@ public class NewsController {
         return "redirect:/news/list";
     }
 
+    @GetMapping("/{newsId}/edit")
+    public String editNewsForm(@PathVariable("newsId") Long newsId, Model model){
+        News news = newsRepository.findById(newsId)
+                .orElseThrow(()->new IllegalArgumentException("해당 뉴스가 존재하지 않습니다."));
+        model.addAttribute("news", news);
+        return "news/edit";
+    }
+
 }
