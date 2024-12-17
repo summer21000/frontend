@@ -62,4 +62,10 @@ public class NewsController {
         return "";
     }
 
+    @GetMapping("/{newsId}/delete")
+    public String deleteNews(@PathVariable("newsId") Long newsId){
+        newsRepository.deleteById(newsId);
+        return "redirect:/news/list";
+    }
+
 }
