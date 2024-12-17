@@ -6,13 +6,13 @@ import com.example.News.mapper.NewsMapper;
 import com.example.News.repository.NewsRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -44,9 +44,15 @@ public class NewsController {
     }
 
     @GetMapping("/list")
-    public String getNewsList(Model model){
-        List<News> newsList = newsRepository.findAll();
-        model.addAttribute("newsList", newsList);
+    public String getNewsList(Model model,
+                              @RequestParam(name = "page", defaultValue = "0")int page) {
+        Pageable pageable = PageRequest.of(page, 7);
+        Page<News> newsPage = newsRepository.findAll(pageable);
+        model.addAttribute("newsPage", newsPage);
+        model.addAttribute("prev", pageable.previousOrFirst().getPageNumber());
+        model.addAttribute("next", pageable.next().getPageNumber());
+        model.addAttribute("hasNext", newsPage.hasNext());
+        model.addAttribute("hasPrev", newsPage.hasPrevious());
         return "news/list";
     }
     //엔티티를 그대로 사용하는 예시
