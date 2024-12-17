@@ -76,4 +76,13 @@ public class NewsController {
         return "news/edit";
     }
 
+    @PostMapping("/{newsId}/update")
+    public String editNews(@PathVariable("newsId") Long newsId, NewsDto.Patch patch) {
+        News news = newsRepository.findById(newsId)
+                .orElseThrow(() -> new IllegalArgumentException("해당 뉴스가 존재하지 않습니다."));
+        mapper.PatchDtoToNews(patch, news);
+        newsRepository.save(news);
+        return "redirect:/news/" + news.getNewsId();
+    }
+
 }

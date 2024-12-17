@@ -12,4 +12,13 @@ public class NewsDto {
         private String title;
         private String content;
     }
+
+    @Getter
+    @Setter
+    @NoArgsConstructor
+    @AllArgsConstructor
+    public static class Patch{
+        private String title;
+        private String content;
+    }
 }
